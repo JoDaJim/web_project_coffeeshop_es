@@ -60,6 +60,9 @@
   height: 16px;
   width: 16px;
 }
+.social__link-site:hover {
+  color: #ffd6c5;
+}
 .footer__copyright {
   position: relative;
   z-index: 1;

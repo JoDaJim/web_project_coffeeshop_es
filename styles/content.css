@@ -69,6 +69,9 @@
   font-size: 16px;
   line-height: 20px;
 }
+.form__button-reservar:hover {
+  opacity: 70%;
+}
 .form__checkbox {
   display: flex;
   align-items: center;

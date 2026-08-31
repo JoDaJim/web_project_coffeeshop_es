@@ -34,7 +34,9 @@
   font-weight: 500;
   color: rgb(0 0 0);
 }
-
+.header__nav-link:hover {
+  color: #ff976b;
+}
 .header__title {
   max-width: 709px;
   margin: 183px 0 0 80px;
