@@ -18,36 +18,41 @@
   <body>
     <!-- ENCABEZADO -->
     <header class="header">
-      <nav class="nav">
+      <nav class="header__nav">
         <img
-          class="logo"
+          class="header__nav-logo"
           src="images/logo_coffeeshop_dark.svg"
-          alt="logo_texp"
+          alt="Triple ten"
         />
-        <ul class="nav-links">
-          <li><a class="nav-link" href="#Reserva"> Reserva una mesa </a></li>
-          <li><a class="nav-link" href="#Contacto"> Contacto</a></li>
+        <ul class="header__nav-links">
+          <li>
+            <a class="header__nav-link" href="#Reserva"> Reserva una mesa </a>
+          </li>
+          <li><a class="header__nav-link" href="#Contacto"> Contacto</a></li>
         </ul>
       </nav>
-      <h1 class="header-title">
-        <span class="span-accent">Café de especialidad</span> en Triple Peaks
+      <h1 class="header__title">
+        <span class="title__span-accent">Café de especialidad</span> en Triple
+        Peaks
       </h1>
-      <p class="header-description">
+      <p class="header__description">
         ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
         para darte energía y motivar tu creatividad.
       </p>
       <img
-        class="header-image"
+        class="header__image"
         src="images/inside_coffee_shop.png"
         alt="inside coffee shop image"
       />
-      <div class="header-info">
-        <div class="header-hours">
-          <p class="info-text">Horario:</p>
-          <p class="info-text">Lunes a Viernes (de 10:00h a 19:00h)</p>
-          <p class="info-text">Sábados y Domingos (de 11:00h a 18:00h)</p>
+      <div class="header__info">
+        <div class="header__info-hours">
+          <p class="header__info-text">Horario:</p>
+          <p class="header__info-text">Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <p class="header__info-text">
+            Sábados y Domingos (de 11:00h a 18:00h)
+          </p>
         </div>
-        <p class="info-text info-address">
+        <p class="header__info-text header__info-address">
           Avenida del Éxito 200, Ciudad Triple Peaks
         </p>
       </div>
@@ -116,6 +121,40 @@
         </form>
       </div>
     </main>
-    <footer class="footer" id="Contacto"></footer>
+    <!-- Pie de pagina -->
+    <footer class="footer" id="Contacto">
+      <div class="footer__circle"></div>
+      <div class="footer__container">
+        <img
+          class="footer__container-logo"
+          src="images/logo_coffeeshop_light.svg"
+          alt="Triple Espresso"
+        />
+        <div class="footer__social">
+          <h2 class="footer__social-title">Redes sociales</h2>
+          <ul class="footer__social-links">
+            <li class="footer__social-link">
+              <a class="social__link-site" href="#"
+                ><img
+                  class="social__link-logo"
+                  src="images/facebook_white.svg"
+                  alt="Facebook"
+                />Facebook</a
+              >
+            </li>
+            <li class="footer__social-link">
+              <a class="social__link-site" href="#"
+                ><img
+                  class="social__link-logo"
+                  src="images/instagram_white.svg"
+                  alt="Instagram"
+                />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">© 2026 Josue Jimenez Mora</p>
+    </footer>
   </body>
 </html>
